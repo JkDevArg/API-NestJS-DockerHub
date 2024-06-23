@@ -7,7 +7,9 @@ ya armado gracias a la IA que utiliza para crear el compose de docker.
 
 Luego hay un parametro si quieres ejecutar ese docker-compose.yml para que ya docker cree un contenedor.
 
-Para usar la IA debes generar tus KEY en el ```.env```
+Para usar la IA debes generar tus KEY en el ```.env```.
+
+Este proyecto no utiliza JWT, se usa  [PASETO](https://paseto.io/)
 
 ## Installation
 
