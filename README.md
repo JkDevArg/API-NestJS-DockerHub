@@ -9,7 +9,9 @@ Luego hay un parametro si quieres ejecutar ese docker-compose.yml para que ya do
 
 Para usar la IA debes generar tus KEY en el ```.env```.
 
-Este proyecto no utiliza JWT, se usa  [PASETO](https://paseto.io/)
+Este proyecto no utiliza JWT, se usa  [PASETO](https://paseto.io/).
+
+Secret Key se genera automaticamente una vez que se logee por primera vez. Luego ya no sera necesario y utiliza el .env o de la base de datos
 
 ## Installation
 
