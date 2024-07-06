@@ -7,6 +7,7 @@ import { CacheModule } from '@nestjs/cache-manager'
 import * as redisStore from 'cache-manager-redis-store';
 import { DockerModule } from './docker/docker.module';
 import { GptModule } from './gpt/gpt.module';
+import { IzipayModule } from './izipay/izipay.module';
 
 @Module({
   imports: [
@@ -30,7 +31,8 @@ import { GptModule } from './gpt/gpt.module';
     UsersModule,
     AuthModule,
     DockerModule,
-    GptModule
+    GptModule,
+    IzipayModule
   ],
   controllers: [],
   providers: [],
